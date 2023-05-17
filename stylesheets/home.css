@@ -1,0 +1,394 @@
+body {
+    background-image: none;
+}
+
+.content-0 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    margin: 30px 0 30px 0;
+    color: whitesmoke;
+}
+
+#pigeon {
+    width: 12%;
+}
+
+.title-header {
+    animation-name: titleSlideRight;
+    animation-duration: 2s;
+}
+
+@keyframes titleSlideRight {
+    from {padding-left: 50%; opacity: 0%;}
+    to {padding-left: 0%; opacity: 100%;}
+}
+
+.content-0 h2 {
+    font-size: xx-large;
+}
+
+.content-0 h4 {
+    color: #7c7c7c;
+    font-weight: 400;
+}
+
+#colored-cover {
+    opacity: 100%;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.text-header {
+    position: absolute;
+    height: 100%;
+    margin-left: 10%;
+    padding-top: 15%;
+    font-size: 1.7vw;
+    animation-duration: 2s;
+    animation-delay: 0.1s;
+    animation-name: slideUp;
+    color: whitesmoke;
+}
+
+@keyframes slideUp {
+    from {padding-top: 50%; opacity: 0%;}
+    to {padding-top: 15%; opacity: 100%;}
+}
+
+.text-header h2 {
+    font-size: 4em;
+    font-weight: 500;
+}
+
+.content-2 {
+    margin: 0;
+    background-color: whitesmoke;
+    padding: 8% 0;
+    text-align: center;
+}
+
+.content-2 h5 {
+    font-size: large;
+    font-weight: 400;   
+}
+
+.content-3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5%;
+    text-align: justify;
+    background-color: whitesmoke;
+}
+
+.content-3 h2 {
+    font-weight: 500;
+    letter-spacing: 5px;
+}
+
+#adcover {
+    width: 40%;
+    height: 100%;
+}
+
+.list-benefits {
+    margin: 20px 0 0 7%;
+}
+
+.list-benefits li {
+    list-style-type:square;
+}
+
+#getMotivated,
+#Art-Collaboration{
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 5px;
+    padding-top: 70px;
+    background-color: whitesmoke;
+}
+
+.content-4 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5% 10%;
+    text-align: justify;
+    background-color: whitesmoke;
+}
+
+.content-4 h4 {
+    font-weight: 500;
+    padding-left: 10%;
+}
+
+.content-4 p {
+    text-indent: 5%;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.content-4 .teller {
+    text-align: end;
+}
+
+.teller-pic {
+    border-radius: 10px;
+    width: 25%;
+}
+
+#social-icons {
+    margin-right: 4%;
+    margin-left: 4%;
+}
+
+.foot-icon {
+    font-size: large;
+    padding-top: 15px;
+}
+
+.icon1 {
+    color: #2167ff;
+}
+
+.icon2 {
+    color: #00aced;
+}
+
+.icon3 {
+    color: #ff21a2;
+}
+
+.content-4-responsive {
+    display: none;
+}
+
+.content-5 {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 200px;
+    padding-bottom: 100px;
+    background-color: whitesmoke;
+}
+
+.work {
+    width: 20vw;
+}
+
+.work-des {
+    width: 100%;
+    font-size: 0.7rem;
+}
+
+.content-6 {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    height: 100%;
+}
+
+.ads-content {
+    max-width: 100vw;
+    width: 100%;
+}
+
+.ads-content h2 {
+    padding: 12% 0 0 30px;
+    margin-bottom: 5%;
+    font-size: 3vw;
+    color: whitesmoke;
+}
+
+.ads-content a {
+    margin-top: 25%;
+    margin-left: 30px;
+    padding: 6px 15px;
+    font-size: 3.2vw;
+    font-weight: 500;
+    border-radius: 8px;
+    color: none;
+    background-color: none;
+    box-shadow: 0px 0px 5px whitesmoke;
+}
+
+.ads-content a:hover {
+    
+    color: whitesmoke;
+    background-color: #8aff31c5;
+    box-shadow: none;
+}
+
+#vibrant {
+    width: 100%;
+}
+
+.content5a {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+
+.content5a h2 {
+    font-size: xx-large;
+    font-weight: 400;
+    color: whitesmoke;
+}
+
+#vivid {
+    height: 100%;
+    width: 10%;
+}
+
+.ads-content-1 {
+    max-width: 70vw;
+    width: 100%;
+}
+
+.ads-content-1 {
+    color: whitesmoke;
+}
+
+#portmode {
+    display: none;
+}
+
+@media (max-width: 518px)
+{
+    .content-0 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 30px 0 0px 0;
+    }
+
+    .content-0 h2 {
+        font-size: large;
+    }
+    
+    .content-0 h4 {
+        font-size: small;
+        font-weight: 400;
+    }
+
+    .content-1 {
+        margin-top: 25px;
+    }
+    .text-header {
+        width: 100%;
+        margin-left: 0;
+        padding-top: 8%;
+        font-size: 0.5rem;
+        text-align: center;
+    }
+
+    @keyframes slideUp {
+        from {padding-top: 16%; opacity: 0%;}
+        to {padding-top: 8%; opacity: 100%;}
+    }
+
+    .content-3 {
+        flex-direction: column;
+        align-items: center;
+        text-align: justify;
+    }
+
+    #adcover {
+        width: 70%;
+    }
+
+    .content-04 {
+        display: none;
+    }
+
+    .content-4-responsive{
+        display: inline;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .staff-quotes p{
+        text-align: justify;
+    }
+
+    .content-4-res {
+        padding: 100px 7% 0 7%;
+        background-color: whitesmoke;
+    }
+
+    .teller-pic {
+        border-radius: 5px;
+        width: 40%;
+    }
+
+    .social-icon-media {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .content-6 {
+        display: block;
+        margin: auto;
+        padding-top: 10%;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    .ads-content h2 {
+        padding:0;
+        margin-bottom: 5%;
+        font-size: 3vw;
+        color: whitesmoke;
+    }
+
+    #vibrant {
+        display: none;
+    }
+
+    #portmode {
+        display: block;
+        width: 100%;
+    }
+
+    .ads-content-1 p{
+        display: block;
+        margin-right: 0;
+        color: whitesmoke;
+    }
+
+    .ads-content-1 {
+        padding: 100px 5%;
+        max-width: 100vw;
+        width: 100%;
+    }
+
+    .ads-content h2 {
+        padding: 12% 0 0 30px;
+        margin-bottom: 5%;
+        font-size: 7vw;
+    }
+
+    .ads-content a {
+        margin-top: 25%;
+        margin-left: 30px;
+        padding: 6px 15px;
+        font-size: 5vw;
+        font-weight: 500;
+        border-radius: 8px;
+        color: none;
+        background-color: none;
+        box-shadow: 0px 0px 5px whitesmoke;
+    }
+
+    .content5a {
+        display: block;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #vivid {
+        width: 30%;
+    }
+}

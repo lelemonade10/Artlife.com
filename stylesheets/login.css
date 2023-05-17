@@ -1,0 +1,177 @@
+body {
+    height: 100vh;
+    background-color: #181818;
+}
+
+.container-form {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../imgRes./login-signup-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.form-login {
+    border-radius: 6px;
+    max-width: 430px;
+    width: 100%;
+    padding: 30px;
+    box-shadow: 0px 0px 20px black;
+    margin-bottom: 0;
+    /* background-color: rgba(0, 0, 0, 0.487); */
+}
+
+#log-in-header {
+    font-size: 30px;
+    letter-spacing: 0;
+    text-align: center;
+    color: whitesmoke;
+}
+
+form {
+    margin-top: 30px;
+}
+
+form .field {
+    height: 40px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.field input,
+.field button {
+    height: 100%;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    color: whitesmoke;
+}
+
+.field input {
+    outline: none;
+    padding: 0 15px;
+    border-bottom: 2px solid whitesmoke;
+    background-color: transparent;
+}
+
+.form-link {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.form-link,
+.form-link a {
+    font-size: 14px;
+    font-weight: normal;
+    color: whitesmoke;
+}
+
+.form a {
+    text-decoration: none;
+}
+
+#login-btn {
+    font-weight: bold;
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px black;
+    background-color: transparent;
+}
+
+#login-btn:hover {
+    box-shadow: none;
+    background-color: #8aff319c;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.line {
+    position: relative;
+    height: 1px;
+    width: 100%;
+    margin: 30px 0;
+    background-color: whitesmoke;
+}
+
+.line::before {
+    content: 'Or';
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    color: whitesmoke;
+    padding-top: 10px;
+}
+
+.media-option a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.facebook {
+    height: 40px;
+    width: 100%;
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+    word-spacing: 1px;
+    border-radius: 6px;
+    background-color: #4070f48c;
+    color: whitesmoke;
+}
+
+.facebook-icon {
+    padding-right: 5px;
+    font-size: 1.2em;
+    color: #f5f5f5;
+}
+
+.facebook:hover {
+    background-color: #4070f4;
+    color: whitesmoke;
+}
+
+.google {
+    height: 40px;
+    width: 100%;
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+    word-spacing: 1px;
+    border-radius: 6px;
+    background-color: #f47c408c;
+    color: whitesmoke;
+}
+
+.google-icon {
+    padding-right: 5px;
+    font-size: 1.2em;
+    color: #f5f5f5;
+}
+
+.google:hover {
+    background-color: #f47c40;
+    color: whitesmoke;
+}
+
+
+@media (max-width: 518px)
+{
+    .form-login {
+        border-radius: 6px;
+        max-width: 430px;
+        width: 80%;
+        padding: 30px;
+        max-height: 350px;
+        height: 100%;
+        margin-bottom: 50px;
+        box-shadow: 0px 0px 20px black;
+    }
+
+    form .field {
+        margin-top: 10px;
+    }
+}

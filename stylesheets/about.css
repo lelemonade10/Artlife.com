@@ -1,0 +1,89 @@
+body {
+    background-color: #141414;
+}
+
+#title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 4em;
+    text-align: center;
+    margin: 100px 0;
+    color: whitesmoke;
+}
+
+.box-content-1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10%;
+}
+
+#container-sect-1 {
+    padding-left: 10%;
+    color: whitesmoke;
+}
+
+.img-vect-1 {
+    height: 100%;
+}
+
+.sect1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    text-align: justify;
+    line-height: 35px;
+}
+
+.benefits li {
+    text-indent: 5%;
+    font-size: large;
+    line-height: 35px;
+}
+
+.ic8 {
+    font-size: x-large;
+    margin-right: 8px;
+    color: #7c7c7c;
+}
+
+.box-content-2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 10% 80px 10%;
+    color: whitesmoke;
+}
+
+#container-sect-2 {
+    padding-right: 10%;
+}
+
+.img-vect-2 {
+    height: 40vh;
+}
+
+@media (max-width: 704px){
+    .box-content-1 {
+        flex-wrap: wrap;
+    }
+
+    .img-vect-1 {
+        margin: 0 auto 50px auto;
+    }
+
+    #container-sect-1,  h1{
+        text-align: center;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+
+    .box-content-2 {
+        flex-wrap: wrap;
+    }
+
+    #container-sect-2 {
+        padding-right: 0;
+    }
+
+    .img-vect-2 {
+        margin: 50px auto 50px auto;
+    }
+}
